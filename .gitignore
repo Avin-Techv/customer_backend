@@ -5,7 +5,7 @@
 /.vscode
 
 #ignore migration folders
-customer_backend/customer_crud/migrations/
+customer_crud/migrations/
 
 # ignore env files
 customer_backend/.env
