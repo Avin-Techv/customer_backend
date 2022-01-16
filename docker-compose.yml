@@ -8,8 +8,7 @@ services:
       - "8041:8041"
     volumes:
       - ./app:/app
-      - media-volume:/customer_backend/media
-      - app-customer-crud-volume:/customer_backend/general/migrations
+      - app-customer-crud-volume:/customer_crud/migrations
     command: >
       sh -c "python manage.py runserver 0.0.0.0:8041"
     environment:
